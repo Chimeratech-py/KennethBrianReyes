@@ -1,0 +1,24 @@
+<div class="container mx-5 px-5">
+    <div class="row mx-5 px-5 my-5 py-5">
+        <div class="col-8">
+            <h1 class="display-4">
+                {{localProfile.firstName}}
+            </h1>
+            <h1 class="display-4">
+                {{localProfile.lastName}}
+            </h1>
+            <p>
+                {{localProfile.p1}}<strong>{{localProfile.exp}}</strong>{{localProfile.p2}}
+            </p>
+            <ul class="list-unstyled">
+                <li><i class="fa fa-check-square-o me-1" aria-hidden="true"></i>Never gonna give you up</li>
+                <li><i class="fa fa-check-square-o me-1" aria-hidden="true"></i>Never gonna let you down</li>
+                <li><i class="fa fa-check-square-o me-1"  aria-hidden="true"></i>Never gonna run around and desert you</li>
+            </ul>
+            
+        </div>
+        <div class="col-4">
+            <img class="img-local" src="{{localProfile.imgPath}}" alt="{{localProfile.firstName}}">
+        </div>
+    </div>
+</div>

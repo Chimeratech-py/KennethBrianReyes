@@ -1,0 +1,5 @@
+Bootstrap 3/10
+Angular 5/10
+.Net 3/10
+Git 4/10
+Docker 2/10
